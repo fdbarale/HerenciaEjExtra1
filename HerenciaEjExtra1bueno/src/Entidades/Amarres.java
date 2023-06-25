@@ -5,10 +5,19 @@
  */
 package Entidades;
 
+import java.util.Date;
+
 /**
  *
  * @author Fernando
  */
 public class Amarres {
+
+    private String nombre;
+    private String dni;
+    private Date fechaAlq;
+    private Date fechaDev;
+    private String posAmarre;
+    private Embarcaciones bote;
     
 }

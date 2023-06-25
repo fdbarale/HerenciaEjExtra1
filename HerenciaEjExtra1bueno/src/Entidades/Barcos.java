@@ -9,6 +9,10 @@ package Entidades;
  *
  * @author Fernando
  */
-public class Barcos {
-    
+class Barcos extends Embarcaciones {
+
+    public Barcos(String matricula, Integer eslora, Integer anoFabr) {
+        super(matricula, eslora, anoFabr);
+    }
+
 }

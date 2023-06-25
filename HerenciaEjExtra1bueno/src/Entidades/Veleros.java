@@ -9,6 +9,13 @@ package Entidades;
  *
  * @author Fernando
  */
-public class Veleros {
-    
+class Veleros extends Embarcaciones {
+
+    private Integer nroMastiles;
+
+    public Veleros(Integer nroMastiles, String matricula, Integer eslora, Integer anoFabr) {
+        super(matricula, eslora, anoFabr);
+        this.nroMastiles = nroMastiles;
+    }
+
 }

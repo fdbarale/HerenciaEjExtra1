@@ -9,6 +9,16 @@ package Entidades;
  *
  * @author Fernando
  */
-public class Embarcaciones {
-    
+abstract class Embarcaciones {
+
+    protected String matricula;
+    protected Integer eslora;
+    protected Integer anoFabr;
+
+    public Embarcaciones(String matricula, Integer eslora, Integer anoFabr) {
+        this.matricula = matricula;
+        this.eslora = eslora;
+        this.anoFabr = anoFabr;
+    }
+
 }

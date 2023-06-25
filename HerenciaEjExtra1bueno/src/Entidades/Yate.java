@@ -9,6 +9,15 @@ package Entidades;
  *
  * @author Fernando
  */
-public class Yate {
-    
+class Yate extends Embarcaciones {
+
+    private Integer potencia;
+    private Integer camarotes;
+
+    public Yate(Integer potencia, Integer camarotes, String matricula, Integer eslora, Integer anoFabr) {
+        super(matricula, eslora, anoFabr);
+        this.potencia = potencia;
+        this.camarotes = camarotes;
+    }
+
 }

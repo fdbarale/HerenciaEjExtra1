@@ -9,6 +9,13 @@ package Entidades;
  *
  * @author Fernando
  */
-public class BarcoAMotor {
-    
+class BarcoAMotor extends Embarcaciones {
+
+    private Integer potencia;
+
+    public BarcoAMotor(Integer potencia, String matricula, Integer eslora, Integer anoFabr) {
+        super(matricula, eslora, anoFabr);
+        this.potencia = potencia;
+    }
+
 }
